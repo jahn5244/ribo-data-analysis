@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project uses R to analyze Amazon Prime user data, focusing on predicting user gender based on transcriptomic data. The analysis involves data preprocessing, quality control, and differential expression analysis using the `ribor`, `NOISeq`, and `biomaRt` packages.
+This R script is used for analyzing ribosome profiling and RNA-seq data to study gene expression and perform quality control checks. It performs various bioinformatics analyses including data preprocessing, quality control, and differential expression analysis using the `ribor`, `NOISeq`, and `biomaRt` packages.
 
 ## Setup Instructions
 
@@ -29,7 +29,7 @@ This project uses R to analyze Amazon Prime user data, focusing on predicting us
 - **Load Ribo Data:**
 
     ```r
-    file.path <- "/path/to/all.ribo"  # Change based on file location
+    file.path <- "/path/to/all.ribo"  # Change based on file location for testing.
     original.ribo <- Ribo(file.path, rename = rename_default)
     ```
 
