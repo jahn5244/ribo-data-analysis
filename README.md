@@ -4,6 +4,8 @@
 
 This R script is used for analyzing ribosome profiling and RNA-seq data to study gene expression and perform quality control checks. It performs various bioinformatics analyses including data preprocessing, quality control, and differential expression analysis using the `ribor`, `NOISeq`, and `biomaRt` packages.
 
+The dataset can be accessed and downloaded using this link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185732 
+
 ## Setup Instructions
 
 1. **Install Required Packages:**
