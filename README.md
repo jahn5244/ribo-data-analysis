@@ -1,4 +1,4 @@
-# Amazon Prime User Gender Prediction
+# Ribosome Profiling Data Analysis
 
 ## Project Overview
 
