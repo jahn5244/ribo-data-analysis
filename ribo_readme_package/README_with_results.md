@@ -26,7 +26,7 @@ This repository contains an analysis pipeline for evaluating differential gene e
 ### ✅ Replicate Filtering
 Only **replicate A** was retained based on read length distribution. Ideal ribosome footprints are ~28 nt. B and C replicates showed irregular profiles.
 
-![Replicate Filtering](/mnt/data/ribo_readme_assets/page6_img1.jpeg)
+![Replicate Filtering](/images/page6_img1.jpeg)
 
 ### 📉 Jaccard Index Between Time Points
 
@@ -45,16 +45,16 @@ Only **replicate A** was retained based on read length distribution. Ideal ribos
 - Most transcripts were protein-coding
 - Low contamination risk
 
-![Biotype Detection](/mnt/data/ribo_readme_assets/page11_img1.jpeg)
-![More QC](/mnt/data/ribo_readme_assets/page11_img2.jpeg)
+![Biotype Detection](/images/page11_img1.jpeg)
+![More QC](/images/page11_img2.jpeg)
 
 #### Sequencing Bias Checks
 - **Length bias**: Slight correlation (high R²)
 - **GC content bias**: Minimal
 - **RNA composition bias**: Detected (FAILED diagnostic test)
 
-![Bias Detection - Length](/mnt/data/ribo_readme_assets/page12_img1.jpeg)
-![Bias Detection - GC Content](/mnt/data/ribo_readme_assets/page12_img2.jpeg)
+![Bias Detection - Length](/images/page12_img1.jpeg)
+![Bias Detection - GC Content](/images/page12_img2.jpeg)
 
 ### 📈 Differential Expression Results
 
